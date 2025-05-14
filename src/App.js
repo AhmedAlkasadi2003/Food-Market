@@ -10,7 +10,6 @@ export default function App(){
         <Route element ={<MainLayout/>}>
         <Route path='/Home' element = {<Home/>}/>
         <Route path='/About' element = {<About/>}/>
-
         </Route>
       </Routes>
     </Router>
