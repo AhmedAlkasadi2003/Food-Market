@@ -6,7 +6,7 @@ export default function Header() {
     <div>
  <div className='flex flex-col'>
  <div className='flex flex-col'>
-        <div class='flex justify-between items-center px-24 bg-blue-500 w-full h-lg p-2 font-text text-white'>
+        <div className='flex justify-between items-center px-24 bg-blue-500 w-full h-lg p-2 font-text text-white'>
           <p className='font-medium text-ms'>FREE delivery & 40% Discount for next 3 orders! Place your 1st order in.</p>
           <div className='flex justify-center items-center'>
             <p>Until the end of the sale:</p>
@@ -17,26 +17,26 @@ export default function Header() {
           </div>
         </div>
         <div className='flex justify-center '>
-  <div class="flex items-center justify-between h-14">
-    <div class="flex items-center space-x-4">
-      <a class="flex items-center space-x-2" href="#">
-        <img alt="JinStore logo icon with purple and orange colors" class="w-6 h-6" height="24" src="https://storage.googleapis.com/a1aa/image/04be774e-06b6-469f-36a2-afd9ff44bddb.jpg" width="24"/>
-        <span class="font-semibold text-black text-sm leading-5 select-none">
+  <div className="flex items-center justify-between h-14">
+    <div className="flex items-center space-x-4">
+      <a className="flex items-center space-x-2" href="#">
+        <img alt="JinStore logo icon with purple and orange colors" className="w-6 h-6" height="24" src="https://storage.googleapis.com/a1aa/image/04be774e-06b6-469f-36a2-afd9ff44bddb.jpg" width="24"/>
+        <span className="font-semibold text-black text-sm leading-5 select-none">
           JinStore
         </span>
       </a>
       
-      <div class="flex items-center space-x-1 text-gray-600 text-xs leading-4 select-none">
-        <i class="fas fa-map-marker-alt text-gray-400 text-[10px]"></i>
+      <div className="flex items-center space-x-1 text-gray-600 text-xs leading-4 select-none">
+        <i className="fas fa-map-marker-alt text-gray-400 text-[10px]"></i>
         <span>Deliver to</span>
-        <span class="font-semibold text-black">all</span>
+        <span className="font-semibold text-black">all</span>
       </div>
     </div>
     
-    <div class="flex-1 w-[500px] mx-6">
-      <form class="relative">
-        <input class="w-full border border-gray-300 rounded-md py-2 pl-3 pr-10 text-xs text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500" placeholder="Search for products, categories or brands..." type="text"/>
-        <button aria-label="Search" class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600" type="submit">
+    <div className="flex-1 w-[500px] mx-6">
+      <form className="relative">
+        <input className="w-full border border-gray-300 rounded-md py-2 pl-3 pr-10 text-xs text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500" placeholder="Search for products, categories or brands..." type="text"/>
+        <button aria-label="Search" className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600" type="submit">
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M21.4938 20.204L17.3858 16.096C18.0965 15.264 18.6512 14.3237 19.0498 13.275C19.4485 12.2263 19.6478 11.1387 19.6478 10.012C19.6478 8.296 19.2145 6.70134 18.3478 5.228C17.5158 3.78934 16.3805 2.64534 14.9418 1.796C13.4685 0.929337 11.8652 0.496002 10.1318 0.496002C8.39851 0.496002 6.79518 0.929337 5.32184 1.796C3.88318 2.628 2.73918 3.75467 1.88984 5.176C1.02318 6.66667 0.589844 8.27434 0.589844 9.999C0.589844 11.7237 1.02318 13.3227 1.88984 14.796C2.72184 16.2347 3.84851 17.3787 5.26984 18.228C6.76051 19.112 8.37251 19.554 10.1058 19.554C11.2325 19.554 12.3202 19.3547 13.3688 18.956C14.4175 18.5573 15.3578 18.0027 16.1898 17.292L20.2978 21.4C20.3498 21.452 20.4278 21.4997 20.5318 21.543C20.6358 21.5863 20.7398 21.608 20.8438 21.608C20.9478 21.608 21.0518 21.5863 21.1558 21.543C21.2598 21.4997 21.3378 21.452 21.3898 21.4C21.5978 21.192 21.7062 20.984 21.7148 20.776C21.7235 20.568 21.6498 20.3773 21.4938 20.204ZM2.30584 9.908C2.30584 8.48667 2.66118 7.16934 3.37184 5.956C4.06518 4.79467 4.99251 3.86734 6.15384 3.174C7.36718 2.46334 8.68451 2.108 10.1058 2.108C11.5272 2.108 12.8445 2.472 14.0578 3.2C15.2365 3.89334 16.1725 4.838 16.8658 6.034C17.5592 7.23 17.9058 8.53 17.9058 9.934C17.9058 11.338 17.5418 12.6467 16.8138 13.86C16.1205 15.0387 15.1758 15.9747 13.9798 16.668C12.7838 17.3613 11.4925 17.708 10.1058 17.708C8.70184 17.7427 7.38451 17.4047 6.15384 16.694C4.99251 16.018 4.06084 15.0733 3.35884 13.86C2.65684 12.6467 2.30584 11.3293 2.30584 9.908Z" fill="black"/>
           </svg>
@@ -44,29 +44,29 @@ export default function Header() {
       </form>
     </div>
     
-    <div class="flex items-center space-x-6 text-gray-600 text-xs leading-4 select-none">
-      <div class="flex items-center space-x-1 cursor-pointer">
+    <div className="flex items-center space-x-6 text-gray-600 text-xs leading-4 select-none">
+      <div className="flex items-center space-x-1 cursor-pointer">
         <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12.9423 9.10201C12.1103 9.63934 11.2089 9.90801 10.2383 9.90801C9.59695 9.90801 8.97728 9.78234 8.37928 9.53101C7.78128 9.27968 7.25261 8.92868 6.79328 8.47801C6.33395 8.02734 5.98295 7.50301 5.74028 6.90501C5.49761 6.30701 5.37628 5.68735 5.37628 5.04601C5.37628 4.04068 5.64928 3.13068 6.19528 2.31601C6.74128 1.50134 7.46061 0.907679 8.35328 0.535011C9.24595 0.162346 10.1949 0.0713444 11.2003 0.262012C12.1363 0.435345 12.9596 0.873011 13.6703 1.57501C14.3809 2.27701 14.8273 3.10901 15.0093 4.07101C15.1913 5.03301 15.1003 5.97334 14.7363 6.89201C14.3723 7.81068 13.7743 8.54734 12.9423 9.10201ZM11.7463 2.78401C11.2956 2.48935 10.7929 2.34201 10.2383 2.34201C9.51028 2.34201 8.86895 2.60201 8.31428 3.12201C7.79428 3.67668 7.53428 4.31801 7.53428 5.04601C7.53428 5.60068 7.68595 6.10334 7.98928 6.55401C8.29261 7.00468 8.69561 7.33401 9.19828 7.54201C9.70095 7.75001 10.2209 7.80201 10.7583 7.69801C11.2956 7.59401 11.7593 7.34701 12.1493 6.95701C12.5393 6.56701 12.7863 6.10334 12.8903 5.56601C12.9943 5.02868 12.9423 4.50868 12.7343 4.00601C12.5263 3.50335 12.1969 3.09601 11.7463 2.78401ZM3.34828 13.86C4.24961 12.9413 5.29828 12.235 6.49428 11.741C7.69028 11.247 8.93828 11 10.2383 11C11.5383 11 12.7863 11.247 13.9823 11.741C15.1783 12.235 16.2313 12.937 17.1413 13.847C18.0513 14.757 18.7533 15.81 19.2473 17.006C19.7413 18.202 19.9883 19.45 19.9883 20.75C19.9883 21.062 19.8756 21.322 19.6503 21.53C19.4249 21.738 19.1736 21.842 18.8963 21.842H13.4883C13.1936 21.842 12.9379 21.7337 12.7213 21.517C12.5046 21.3003 12.3963 20.0447 12.3963 20.75C12.3963 20.4553 12.5046 20.1997 12.7213 19.983C12.9379 19.7663 13.1936 19.658 13.4883 19.658H17.7523C17.6136 18.7567 17.3276 17.903 16.8943 17.097C16.4609 16.291 15.8976 15.5933 15.2043 15.004C14.5109 14.4147 13.7396 13.9597 12.8903 13.639C12.0409 13.3183 11.1569 13.158 10.2383 13.158C9.31961 13.158 8.43561 13.3183 7.58628 13.639C6.73695 13.9597 5.96561 14.4147 5.27228 15.004C4.57895 15.5933 4.01561 16.291 3.58228 17.097C3.14895 17.903 2.86295 18.7567 2.72428 19.658H6.98828C7.26561 19.658 7.52561 19.762 7.76828 19.97C7.97628 20.2127 8.08028 20.4727 8.08028 20.75C8.08028 21.0273 7.97628 21.2873 7.76828 21.53C7.52561 21.738 7.26561 21.842 6.98828 21.842H1.58028C1.30295 21.842 1.05161 21.738 0.826281 21.53C0.600948 21.322 0.488281 21.062 0.488281 20.75C0.488281 19.45 0.735281 18.2063 1.22928 17.019C1.72328 15.8317 2.42961 14.7787 3.34828 13.86Z" fill="#030712"/>
         </svg>
-        <div class="flex flex-col leading-[1.1]">
-          <span class="text-gray-600 text-[10px]">Sign In</span>
-          <span class="font-semibold text-black text-[10px]">Account</span>
+        <div className="flex flex-col leading-[1.1]">
+          <span className="text-gray-600 text-[10px]">Sign In</span>
+          <span className="font-semibold text-black text-[10px]">Account</span>
         </div>
       </div>
       
-      <div class="relative cursor-pointer">
+      <div className="relative cursor-pointer">
         <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6.66016 2.40801C5.88016 2.40801 5.15649 2.60301 4.48916 2.99301C3.82182 3.38301 3.29316 3.91168 2.90316 4.57901C2.51316 5.24634 2.31816 5.97001 2.31816 6.75001C2.31816 8.53534 2.82949 10.234 3.85216 11.846C4.68416 13.198 5.84549 14.4633 7.33616 15.642C8.67082 16.734 10.2048 17.696 11.9382 18.528L12.0682 18.58C13.8535 17.7307 15.4482 16.7427 16.8522 15.616L16.8002 15.642C18.2908 14.4633 19.4522 13.198 20.2842 11.846C21.3068 10.234 21.8182 8.53534 21.8182 6.75001C21.8182 5.97001 21.6232 5.24634 21.2332 4.57901C20.8432 3.91168 20.3145 3.38301 19.6472 2.99301C18.9798 2.60301 18.2562 2.40801 17.4762 2.40801C16.7828 2.40801 16.1285 2.55968 15.5132 2.86301C14.8978 3.16634 14.3778 3.58234 13.9532 4.11101C13.5285 4.63968 13.2555 5.23334 13.1342 5.89201C13.0822 6.13468 12.9565 6.33834 12.7572 6.50301C12.5578 6.66768 12.3282 6.75001 12.0682 6.75001C11.8082 6.75001 11.5785 6.66768 11.3792 6.50301C11.1798 6.33834 11.0542 6.13468 11.0022 5.89201C10.8808 5.23334 10.6078 4.63968 10.1832 4.11101C9.75849 3.58234 9.23849 3.16634 8.62316 2.86301C8.00782 2.55968 7.35349 2.40801 6.66016 2.40801ZM12.0682 20.842C11.9122 20.8247 11.7562 20.79 11.6002 20.738C11.5135 20.7033 11.3662 20.634 11.1582 20.53C9.25149 19.6287 7.50949 18.5453 5.93216 17.28L5.98416 17.332C4.30282 16.0147 2.97682 14.576 2.00616 13.016C0.77549 11.04 0.160156 8.95134 0.160156 6.75001C0.160156 5.57134 0.45049 4.48368 1.03116 3.48701C1.61182 2.49034 2.40049 1.70168 3.39716 1.12101C4.39382 0.540344 5.48149 0.25001 6.66016 0.25001C7.75216 0.25001 8.77049 0.497009 9.71516 0.991011C10.6598 1.48501 11.4442 2.15668 12.0682 3.00601V3.03201C12.6922 2.16534 13.4765 1.48501 14.4212 0.991011C15.3658 0.497009 16.3842 0.25001 17.4762 0.25001C18.6548 0.25001 19.7425 0.540344 20.7392 1.12101C21.7358 1.70168 22.5245 2.49034 23.1052 3.48701C23.6858 4.48368 23.9762 5.57134 23.9762 6.75001C23.9762 8.95134 23.3608 11.04 22.1302 13.016C21.1595 14.576 19.8335 16.0147 18.1522 17.332C16.6095 18.5453 14.9368 19.594 13.1342 20.478L12.9782 20.53C12.5622 20.738 12.2588 20.842 12.0682 20.842Z" fill="#030712"/>
         </svg>
-        <span class="absolute -top-1 -right-2 bg-red-600 text-white text-[8px] font-semibold rounded-full w-4 h-4 flex items-center justify-center">0</span>
+        <span className="absolute -top-1 -right-2 bg-red-600 text-white text-[8px] font-semibold rounded-full w-4 h-4 flex items-center justify-center">0</span>
       </div>
       
-      <div class="relative cursor-pointer">
+      <div className="relative cursor-pointer">
         <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M22.1822 0.25H1.07016C0.810156 0.284667 0.59349 0.406 0.420156 0.614C0.246823 0.822 0.160156 1.056 0.160156 1.316C0.160156 1.576 0.246823 1.81433 0.420156 2.031C0.59349 2.24767 0.810156 2.37333 1.07016 2.408H5.25616L4.50216 12.002V12.184C4.50216 12.7733 4.71449 13.2803 5.13916 13.705C5.56382 14.1297 6.07082 14.342 6.66016 14.342H19.9462C20.4662 14.342 20.9212 14.1817 21.3112 13.861C21.7012 13.5403 21.9482 13.146 22.0522 12.678L24.2882 2.902C24.3228 2.694 24.3402 2.52933 24.3402 2.408C24.3402 1.80133 24.1322 1.29 23.7162 0.874001C23.3002 0.458001 22.7888 0.25 22.1822 0.25ZM19.9462 12.158H6.66016L7.41416 2.408H22.1822L19.9462 12.158ZM8.66216 19.75C9.26882 19.75 9.78449 19.5377 10.2092 19.113C10.6338 18.6883 10.8462 18.1727 10.8462 17.566C10.8462 16.9593 10.6338 16.448 10.2092 16.032C9.78449 15.616 9.26882 15.408 8.66216 15.408C8.07282 15.408 7.56582 15.616 7.14116 16.032C6.71649 16.448 6.50416 16.9593 6.50416 17.566C6.50416 18.1727 6.71649 18.6883 7.14116 19.113C7.56582 19.5377 8.07282 19.75 8.66216 19.75ZM18.4122 19.75C19.0188 19.75 19.5345 19.5377 19.9592 19.113C20.3838 18.6883 20.5962 18.1727 20.5962 17.566C20.5962 16.9593 20.3838 16.448 19.9592 16.032C19.5345 15.616 19.0188 15.408 18.4122 15.408C17.8228 15.408 17.3158 15.616 16.8912 16.032C16.4665 16.448 16.2542 16.9593 16.2542 17.566C16.2542 18.1727 16.4665 18.6883 16.8912 19.113C17.3158 19.5377 17.8228 19.75 18.4122 19.75Z" fill="#030712"/>
         </svg>
-        <span class="absolute -top-1 -right-2 bg-red-600 text-white text-[8px] font-semibold rounded-full w-4 h-4 flex items-center justify-center">0</span>
+        <span className="absolute -top-1 -right-2 bg-red-600 text-white text-[8px] font-semibold rounded-full w-4 h-4 flex items-center justify-center">0</span>
       </div>
     </div>
   </div>
