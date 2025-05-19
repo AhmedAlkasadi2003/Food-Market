@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://AhmedAlkasadi2003.github.io/",
+  "homepage": "https://AhmedAlkasadi2003.github.io/Home",
   "eslintConfig": {
     "extends": [
       "react-app",
